@@ -1,0 +1,25 @@
+.tabs-wrapper {
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+
+}
+.tabs-wrapper .tab {
+  background-color: rgb(33, 142, 206);
+  color: #fff;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.tabs-wrapper .tab.active {
+  background-color: #fff;
+  color: rgb(33, 142, 206);
+  border: 1px solid rgb(33, 142, 206);
+}
+
+.content-wrapper {
+  padding: 1rem;
+}
