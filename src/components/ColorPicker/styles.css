@@ -1,0 +1,40 @@
+.wrapper{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.wrapper .colors{
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+.wrapper .colors .common{
+    padding: 8px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.wrapper .colors .red{
+    background-color: red;
+}
+
+.wrapper .colors .blue{
+    background-color: blue;
+}
+.wrapper .colors .green{
+    background-color: green;
+}
+.wrapper .coloredBox{
+    color: black;
+    border: 1px solid gray;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
