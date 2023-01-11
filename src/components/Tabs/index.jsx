@@ -37,7 +37,7 @@ const Tabs =()=> {
         {tabsArray.map((tab) => {
             const {id ,title} = tab
             return (
-                <div className={`tab ${activeTab.id === id ? 'active' : ''}`} onClick={()=>handleTabClick(tab)}> {title}  </div>
+                <div key={id} className={`tab ${activeTab.id === id ? 'active' : ''}`} onClick={()=>handleTabClick(tab)}> {title}  </div>
             )
         })}
       

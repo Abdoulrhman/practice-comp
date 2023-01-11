@@ -1,0 +1,28 @@
+.list-wrapper{
+    display: flex;
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+align-self: center;
+justify-content: space-evenly;
+
+}
+.list-wrapper .users{
+    
+
+}
+.list-wrapper .users .title{
+
+}
+.list-wrapper .users .user-name{
+
+}
+.list-wrapper .vertical-line{
+    width: 2px;
+    height: 300px;
+    background-color: gray;
+
+}
+.list-wrapper .users-details{
+
+}
